@@ -4,7 +4,6 @@ export default function Header() {
     return (
         <section>
             
-        
             <header id="header" class="animated slideInDown" style={{'animation-delay': '.2s'}}>
                 <table>
                     <tr>
