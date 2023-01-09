@@ -7,6 +7,7 @@ export default function TopSection() {
                 <tr>
                     <td id="about" class="animated slideInLeft">
                         <h1>hi, i'm gelila <br/> learn more about me below! </h1>
+                        <button class="btn_one"> View Resume </button><br/>
                         <table>
                             <tr>
                                 <td class="animated zoomIn" style={{'animation-delay': '2.2s'}}><a class="social" href="https://www.linkedin.com/in/gelila-kebede/"><i class="fab fa-linkedin"></i></a></td>
