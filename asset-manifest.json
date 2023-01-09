@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.33ebeb8b.css",
+    "main.js": "/me/static/js/main.48793805.js",
+    "static/js/787.de3420dc.chunk.js": "/me/static/js/787.de3420dc.chunk.js",
+    "static/media/staffphoto_gkebede1_vertical.jpg": "/me/static/media/staffphoto_gkebede1_vertical.992bc2b07ccf9e668623.jpg",
+    "index.html": "/me/index.html",
+    "main.33ebeb8b.css.map": "/me/static/css/main.33ebeb8b.css.map",
+    "main.48793805.js.map": "/me/static/js/main.48793805.js.map",
+    "787.de3420dc.chunk.js.map": "/me/static/js/787.de3420dc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33ebeb8b.css",
+    "static/js/main.48793805.js"
+  ]
+}
