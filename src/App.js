@@ -6,6 +6,8 @@ import './App.css';
 import Header from './components/header.js'
 import TopSection from './components/top_section.js'
 import Bio from './components/bio.js'
+import Experience from './components/experience.js'
+import Footer from './components/footer.js'
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Header />
       <TopSection />
       <Bio />
+      <Experience />
+      <Footer />
     </main>
     
   );

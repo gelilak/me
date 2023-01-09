@@ -40,7 +40,7 @@ body {
     animation: rotate 0.56s infinite linear;
     width:50px;
     height:50px;
-    border:12px solid rgb(255, 44, 90);
+    border:12px solid #679c65;
     border-bottom:12px solid #fff;
     border-radius:50%;
     margin:0;
@@ -88,7 +88,7 @@ header table {
     transition:0.4s ease-in-out;
 }
 #magnify h1:hover{
-    color:rgb(255, 44, 90);
+    color:#679c65;
     cursor:pointer;
 }
 #img_here {
@@ -100,7 +100,7 @@ header table {
 }
 #logo {
     font-size:24px;
-    color:rgb(255, 44, 90);
+    color:#679c65;
 }
 #navigation {
     text-align:right;
@@ -146,7 +146,7 @@ header table {
     animation-delay:2s;
 }
 .social {
-    color:rgb(255, 44, 90);
+    color:#679c65;
     font-size:23px;
     padding:12px 17px;
     border-radius:50%;
@@ -158,15 +158,15 @@ header table {
 .social:hover { 
     cursor: pointer;
     color:#fff;
-    background:rgb(255, 44, 90);
-    box-shadow:0px 10px 30px rgba(255, 66, 107,0.8);
+    background:#537d51;
+    box-shadow:0px 10px 30px #537d51;
 }
 .btn_one {
     font-size:18px;
     font-family: 'Poppins', sans-serif;
-    color:rgb(255, 44, 90);
+    color:#679c65;
     background:#fff;
-    border:3px solid rgb(255, 44, 90);
+    border:3px solid #758675;
     padding:8px 40px;
     width:35%;
     border-radius:80px;
@@ -175,15 +175,15 @@ header table {
     transition:0.4s ease-in-out;
 }
 .btn_one:hover {
-    box-shadow:0px 10px 30px rgba(255, 44, 90, 0.8);
+    box-shadow:0px 10px 30px #758675;
     cursor:pointer;
     color:#fff;
-    background:rgb(255, 44, 90);
+    background:#679c65;
 }
 #rightImage {
     width:100%;
     height:95vh;
-    background:linear-gradient(0deg,rgba(255, 44, 90, 0.4),rgba(2255, 44, 90, 0.4)),url("../public/images/staffphoto_gkebede1_vertical.jpg") center center;
+    background:linear-gradient(0deg,rgba(57, 65, 57, 0.4),rgba(57, 65, 57, 0.4)),url("../public/images/staffphoto_gkebede1_vertical.jpg") center center;
     background-size: cover;
     background-repeat:no-repeat;
 }
@@ -194,7 +194,7 @@ header table {
 }
 #work h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(255, 44, 90);
+    border-bottom:4px solid #758675;
     width:6%;
 }
 #photos {
@@ -221,16 +221,27 @@ header table {
 }
 #bio h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(255, 44, 90);
+    border-bottom:4px solid #537d51;
     width:8%;
 }
+#experience {
+  width:92vw;
+  padding:6vh 4vw;
+  font-weight:bold;
+}
+#experience h1 {
+  padding:5px 0px;
+  border-bottom:4px solid #537d51;
+  width:12%;
+}
+
 #contact {
     width:92vw;
     padding:6vh 4vw;
 }
 #contact h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(255, 44, 90);
+    border-bottom:4px solid #679c65;
     width:10%;
 }
 #contact table {
@@ -299,7 +310,7 @@ header table {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(255, 44, 90);
+    color:#679c65;
     text-decoration:none;
 }
 ::placeholder {
@@ -321,6 +332,148 @@ button:focus {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0,0.8); 
 }
+
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+
+.row-pt-md {
+  padding-top: 3em; 
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.js .animate-box {
+  opacity: 0; 
+}
+
+.services {
+  margin-bottom: 30px;
+  padding: 1.0em;
+  -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  border-bottom: 2px solid #2c98f0; }
+  .services .icon2 {
+    display: block;
+    margin-bottom: 20px; }
+    .services .icon2 i {
+      font-size: 30px;
+      color: #2c98f0; }
+  .services h3 {
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500; }
+  .services.color-2 {
+    border-bottom: 2px solid #ec5453; }
+    .services.color-2 .icon2 i {
+      color: #ec5453; }
+  .services.color-3 {
+    border-bottom: 2px solid #f9bf3f; }
+  .services.color-4 {
+    border-bottom: 2px solid #679c65; }
+
+
+.services {
+  margin-bottom: 80px;
+  position: relative;
+  z-index: 0; }
+  @media screen and (max-width: 768px) {
+    .services {
+      margin-bottom: 4em; } }
+  .services .icon {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    width: 100px;
+    height: 50px;
+    display: table;
+    margin: 0 auto;
+    background: #2c98f0; }
+    .services .icon:before, .services .icon:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      content: ''; }
+    .services .icon:before {
+      top: -30px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 50px 30px 50px;
+      border-color: transparent transparent #2c98f0 transparent; }
+    .services .icon:after {
+      bottom: -30px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 30px 50px 0 50px;
+      border-color: #2c98f0 transparent transparent transparent; }
+    .services .icon i {
+      font-size: 30px;
+      color: #fff;
+      z-index: 1;
+      display: table-cell;
+      vertical-align: middle; }
+  .services .desc {
+    margin-top: 60px; }
+    .services .desc h3 {
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase; }
+  .services.color-2 .icon {
+    background: #ec5453; }
+    .services.color-2 .icon:before {
+      border-color: transparent transparent #ec5453 transparent; }
+    .services.color-2 .icon:after {
+      border-color: #ec5453 transparent transparent transparent; }
+  .services.color-3 .icon {
+    background: #f9bf3f; }
+    .services.color-3 .icon:before {
+      border-color: transparent transparent #f9bf3f transparent; }
+    .services.color-3 .icon:after {
+      border-color: #f9bf3f transparent transparent transparent; }
+  .services.color-4 .icon {
+    background: #679c65; }
+    .services.color-4 .icon:before {
+      border-color: transparent transparent #679c65 transparent; }
+    .services.color-4 .icon:after {
+      border-color: #679c65 transparent transparent transparent; }
+  .services.color-5 .icon {
+    background: #2fa499; }
+    .services.color-5 .icon:before {
+      border-color: transparent transparent #2fa499 transparent; }
+    .services.color-5 .icon:after {
+      border-color: #2fa499 transparent transparent transparent; }
+  .services.color-6 .icon {
+    background: #4054b2; }
+    .services.color-6 .icon:before {
+      border-color: transparent transparent #4054b2 transparent; }
+    .services.color-6 .icon:after {
+      border-color: #4054b2 transparent transparent transparent; } 
+    
+
 
 @media (max-width: 1000px){
     #photos {
@@ -363,7 +516,7 @@ button:focus {
     width:60%;
     margin:4vh auto;
     box-shadow:0px 10px 20px rgba(255, 44, 90, 0.8);
-    background:rgb(255, 44, 90);
+    background:#679c65;
     color:#fff;
     }
     .btn_one:hover {
@@ -389,6 +542,11 @@ button:focus {
     #bio h1 {
         width:25%;
     }
+
+    #experience h1 {
+      width:25%;
+    }
+
     #contact h1 {
         width:33%;
     }
@@ -407,4 +565,19 @@ button:focus {
     #navigation a {
         color:#000;
     }
+
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+    }
+  
+    .col-md-4 {
+      width: 33.33333%;
+    }
 }
+
+
+.colorlib-narrow-content {
+  padding: 0 2.5em; }
+  @media screen and (max-width: 768px) {
+    .colorlib-narrow-content {
+      padding: 0; } }
