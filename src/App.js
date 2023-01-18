@@ -9,6 +9,7 @@ import Bio from './components/bio.js'
 import Experience from './components/experience.js'
 import Footer from './components/footer.js'
 
+//using temp. 2 (/Users/gelilakebede/Projects/web-templates/fimbo-master/2 )
 function App() {
   return (
     <main>
@@ -18,7 +19,6 @@ function App() {
       <Experience />
       <Footer />
     </main>
-    
   );
 }
 

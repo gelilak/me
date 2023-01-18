@@ -11,9 +11,9 @@ export default function TopSection() {
                         <table>
                             <tr>
                                 <td class="animated zoomIn" style={{'animation-delay': '2.2s'}}><a class="social" href="https://www.linkedin.com/in/gelila-kebede/"><i class="fab fa-linkedin"></i></a></td>
-                                <td class="animated zoomIn" style={{'animation-delay': '2.6s'}}><a class="social" href="https://www.instagram.com/gelila.kebede/"><i class="fab fa-instagram"></i></a></td>
                                 <td class="animated zoomIn" style={{'animation-delay': '2.8s'}}><a class="social" href="https://github.com/gelilak"><i class="fab fa-github"></i></a></td>
-                                <td class="animated zoomIn" style={{'animation-delay': '3.0s'}}><a class="social" href="https://open.spotify.com/user/gelilakebede123"><i class="fab fa-spotify"></i></a></td>
+                            {//issue with large spacing between linkedin and github icon coould be padding of animated zoomIn classes; not sure where source code for these classes is
+                            }
                             </tr>
                         </table>
                     </td>
